@@ -1,0 +1,22 @@
+concept_subj_domain_neural_networks_with_direct_connections <- sc_node_struct;;
+
+concept_subj_domain_neural_networks_with_direct_connections => nrel_main_idtf:
+	[Предметная область нейронных сетей с прямыми связями]
+	(* <- lang_ru;; *);
+	[Subject domain of neural networks with direct connections]
+        (* <- lang_en;; *);;
+
+concept_subj_domain_neural_networks_by_the_nature_of_communication => nrel_private_subject_domain: concept_subj_domain_neural_networks_with_direct_connections;;
+
+concept_subj_domain_neural_networks_with_direct_connections <- rrel_key_sc_element: 
+	...
+	(*
+		<- explanation;; 
+		<= nrel_sc_text_translation: 
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/explanation_for_nature_of_communication.html"
+					(* <- lang_ru;; *);;
+			*);;
+*);;

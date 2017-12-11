@@ -1,0 +1,67 @@
+concept_backpropagation
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[метод обратного распространения ошибки](* <-lang_ru;; *);
+		[backpropagation](* <- lang_en;; *);
+
+	=> nrel_idtf:
+		[алгоритм обратного распространения ошибки](* <-lang_ru;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(метод обратного распространения ошибки)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/concept_backpropagation.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(метод обратного распространения ошибки)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/stat_backpropagation.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(метод обратного распространения ошибки)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_backpropagation.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(недостатки метода обратного распространения ошибки)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_backpropagation1.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ... (*
+		<- sc_illustration;;
+		=> nrel_main_idtf: [Изображение алгоритма к понятию "метод обратного распространения ошибки")] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: "file://pics/backpropagation.png";;
+		*);;
+*);;
+
+

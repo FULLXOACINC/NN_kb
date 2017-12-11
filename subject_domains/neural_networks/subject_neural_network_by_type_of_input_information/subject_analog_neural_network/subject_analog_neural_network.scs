@@ -1,0 +1,26 @@
+subject_analog_neural_network
+<- subject_domain;
+=> nrel_main_idtf:
+	[Предметная область аналоговых нейронных сетей]
+	(* <- lang_ru;; *);
+	[Subject analog neural network]
+	(* <- lang_en;; *);
+
+-> rrel_maximum_studied_object_class:
+          concept_analog_neural_network;
+
+-> rrel_not_maximum_studied_object_class:
+          concept_real_number;
+          concept_analog_input_information;
+
+<- rrel_key_sc_element: ...
+	(*
+	<- sc_definition;;
+	=> nrel_main_idtf: [Опр.(Предметная область аналоговых нейронных сетей)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example:
+			"file://htmls/subject_analog_neural_network.html"
+				(* <- lang_ru;;	*);;
+		*);;
+*);;

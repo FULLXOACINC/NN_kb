@@ -1,0 +1,32 @@
+nrel_Hebb_rule_without_teacher
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[Правило обучения Хебба]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[Метод обучения Хебба]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[правило Хебба]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_Hebb_rule_without_teacher
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_Hebb_rule_without_teacher.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

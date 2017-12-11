@@ -1,0 +1,21 @@
+concept_dispersion <- sc_node_not_relation;;
+
+concept_dispersion => nrel_main_idtf:
+	[Дисперсия]
+	(* <- lang_ru;; *);
+	[Dispersion]
+    	(* <- lang_en;; *);;
+
+concept_dispersion <- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	=> nrel_main_idtf: [Опр.(Дисперсия)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/definition_for_dispersion.html"
+					(* <- lang_ru;; *);;
+			*);;
+	*);;

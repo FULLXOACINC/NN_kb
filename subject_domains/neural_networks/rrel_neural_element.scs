@@ -1,0 +1,18 @@
+rrel_neural_element
+
+	<- sc_node_role_relation;
+	=> nrel_main_idtf: 
+		[нейронный элемент'](*<-lang_ru;;*);
+		[neural element'](*<-lang_en;;*);
+
+	<- rrel_key_sc_element: ...
+		(*	
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Опр.(нейронный элемент')] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Нейронный элемент – это элемент в нейронной сети.](*<- lang_ru;;*);;
+			*);;
+
+	*);;

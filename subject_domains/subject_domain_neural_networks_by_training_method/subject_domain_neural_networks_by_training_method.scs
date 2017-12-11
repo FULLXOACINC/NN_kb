@@ -1,0 +1,20 @@
+concept_subject_domain_of_neural_networks_by_training_method
+<- sc_node_struct;
+=> nrel_main_idtf:
+        [Предметная область нейронных сетей по методу обучения]
+	(* <- lang_ru;; *);
+	[Subject domain of neural networks by training method]
+        (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+		<- explanation;; 
+		<= nrel_sc_text_translation: 
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/subject_domain_neural_networks_by_training_method.html"
+					(* <- lang_ru;; *);;
+			*);;
+*);;

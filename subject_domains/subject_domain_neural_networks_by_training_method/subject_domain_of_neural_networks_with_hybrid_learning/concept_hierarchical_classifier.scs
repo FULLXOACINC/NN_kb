@@ -1,0 +1,30 @@
+concept_hierarchical_classifier
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Иерархический классификатор]
+	(* <- lang_ru;; *);
+	[Hierarchical classifier]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[Опр.(иерархический классификатор)]
+			(* <- lang_ru;; *);
+			[Def.(hierarchical classifier)]
+			(* <- lang_en;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/concept_hierarchical_classifier.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+<- rrel_key_sc_element: ... (*
+	<- illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://content_html/concept_hierarchical_classifier.png";;
+	*);;
+*);;

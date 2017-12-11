@@ -1,0 +1,22 @@
+nrel_adaptive_learning_step
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[адаптивный шаг обучения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_adaptive_learning_step
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_adaptive_learning_step.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

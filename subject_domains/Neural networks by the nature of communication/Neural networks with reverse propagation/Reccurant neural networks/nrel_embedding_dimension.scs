@@ -1,0 +1,21 @@
+nrel_embedding_dimension <- sc_node_norole_relation;;
+
+nrel_embedding_dimension => nrel_main_idtf:
+	[размерность вложения*]
+	(* <- lang_ru;; *);
+	[embedding dimension*]
+    	(* <- lang_en;; *);;
+
+nrel_embedding_dimension <- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	=> nrel_main_idtf: [Опр.(размерность вложения*)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/definition_for_embedding_dimension.html"
+					(* <- lang_ru;; *);;
+			*);;
+	*);;

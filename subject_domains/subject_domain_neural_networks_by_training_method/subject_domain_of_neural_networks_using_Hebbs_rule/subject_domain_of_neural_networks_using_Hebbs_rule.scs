@@ -1,0 +1,26 @@
+concept_subject_domain_of_neural_networks_using_Hebbs_rule
+<- sc_node_struct;
+=> nrel_main_idtf:
+        [Предметная область нейронных сетей использующих правило Хебба]
+	(* <- lang_ru;; *);
+	[Subject domain of neural networks using Hebb's rule]
+        (* <- lang_en;; *);
+<= nrel_private_subject_domain:concept_subject_domain_of_neural_networks_by_training_method;
+
+-> rrel_not_maximum_studied_object_class:
+           nrel_Hebb_rule;
+           concept_adaptation;
+           concept_learning;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+		<- explanation;; 
+		<= nrel_sc_text_translation: 
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/subject_domain_of_neural_networks_using_Hebbs_rule.html"
+					(* <- lang_ru;; *);;
+			*);;
+         *);;

@@ -1,0 +1,27 @@
+nrel_convex_combination
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[выпуклая комбинация]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[метод выпуклой комбинации]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_convex_combination
+    <- rrel_key_sc_element:
+	...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_convex_combination.html"
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

@@ -1,0 +1,20 @@
+rrel_synaptic_connections
+
+	<- sc_node_role_relation;
+	=> nrel_main_idtf: 
+		[синаптические связи'](*<-lang_ru;;*);
+		[synaptic connections'](*<-lang_en;;*);
+
+	<- rrel_key_sc_element: ...
+		(*	
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Опр.(синаптические связи')] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:  
+			"file://htmls/rrel_synaptic_connections.html"
+				(* <- lang_ru;;	*);;
+			*);;
+
+	*);;
+

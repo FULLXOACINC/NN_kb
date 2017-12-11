@@ -1,0 +1,26 @@
+concept_lack_of_back_propagation_algorithm
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Недостатки алгоритма обратного
+распространения ошибки]
+	(* <- lang_ru;; *);
+	[lacks of back propagation algorithm]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[Опр.(недостатки алгоритма обратного
+распространения ошибки)]
+			(* <- lang_ru;; *);
+			[Def.(lacks of back propagation algorithm)]
+			(* <- lang_en;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/concept_lack_of_back_propagation_algorithm.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);;

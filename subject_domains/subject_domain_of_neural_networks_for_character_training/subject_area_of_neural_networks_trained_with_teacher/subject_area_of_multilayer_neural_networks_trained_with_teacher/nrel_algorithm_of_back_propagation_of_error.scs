@@ -1,0 +1,32 @@
+nrel_algorithm_of_back_propagation_of_error
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[Алгоритм обратного распространения ошибки]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[Метод обратного распространения ошибки]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[обратное распространение ошибки]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_algorithm_of_back_propagation_of_error
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_algorithm_of_back_propagation_of_error.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

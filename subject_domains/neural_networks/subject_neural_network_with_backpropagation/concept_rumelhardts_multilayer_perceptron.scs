@@ -1,0 +1,67 @@
+concept_multilayer_perceptron
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[многослойный перцептрон Румельхарта](* <-lang_ru;; *);
+		[Rumelhardt's multilayer perceptron](* <- lang_en;; *);
+	=> nrel_idtf:
+		[многослойный перцептрон](* <-lang_ru;; *);
+		[multilayer perceptron](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(многослойный перцептрон Румельхарта)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/concept_multilayer_perceptron.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(многослойный перцептрон Румельхарта)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_multilayer_perceptron1.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(отличие многослойного перцептрона Румельхарта)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_multilayer_perceptron2.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(преимущество многослойного перцептрона Румельхарта)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_multilayer_perceptron3.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ... (*
+		<- illustration;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: "file://pics/concept_multilayer_perceptron.png";;
+		*);;
+*);;
+
+
+

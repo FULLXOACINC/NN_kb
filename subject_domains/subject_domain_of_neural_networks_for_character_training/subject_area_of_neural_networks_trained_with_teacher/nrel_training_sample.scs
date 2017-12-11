@@ -1,0 +1,27 @@
+nrel_training_sample
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[обучающая выборка]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[учитель]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_training_sample
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_training_sample.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

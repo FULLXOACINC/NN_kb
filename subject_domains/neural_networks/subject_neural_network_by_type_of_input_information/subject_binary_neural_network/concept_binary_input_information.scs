@@ -1,0 +1,25 @@
+concept_binary_input_information
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[двоичная входная информация](* <-lang_ru;; *);
+		[binary input information](* <- lang_en;; *);
+	=> nrel_idtf: 
+		[двоичные входные данные](*<-lang_ru;;*);
+		[binary input data](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(двоичная входная информация)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			[Двоичная входная информация — это входная информация, которая представляется в виде нулей и единиц.](*<- lang_ru;;*);;
+			*);;
+*);
+
+	<= nrel_inclusion:concept_binary_neural_network;;
+
+
+

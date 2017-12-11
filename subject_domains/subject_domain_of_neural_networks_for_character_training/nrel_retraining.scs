@@ -1,0 +1,27 @@
+nrel_retraning
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[переобучение]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[проблема переобучения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_retraning
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_retraning.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

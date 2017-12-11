@@ -1,0 +1,37 @@
+concept_attractor <- sc_node_not_relation;;
+
+concept_attractor => nrel_main_idtf:
+	[Аттрактор]
+	(* <- lang_ru;; *);
+	[Attractor]
+    	(* <- lang_en;; *);;
+
+concept_attractor <- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	=> nrel_main_idtf: [Опр.(Аттрактор)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/definition_for_attractor.html"
+					(* <- lang_ru;; *);;
+			*);;
+	*);;
+
+concept_attractor <- rrel_key_sc_element:
+	...
+	(*
+		<- statement;;
+		=> nrel_main_idtf:
+			[Утв.(Неподвижная точка)]
+			(* <- lang_ru;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/statement_for_attractor.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);;

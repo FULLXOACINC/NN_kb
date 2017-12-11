@@ -1,0 +1,23 @@
+concept_binary_neural_network
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[двоичная нейронная сеть](* <-lang_ru;; *);
+		[binary neural network](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(двоичная нейронная сеть)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/concept_binary_neural_network.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+ 	<= nrel_inclusion:concept_neural_network;;
+
+
+

@@ -1,0 +1,47 @@
+algorithm_with_the_back_propagation_error
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Алгоритм обратного распостранения ошибки]
+	(* <- lang_ru;; *);
+	[Algorithm with the back propagation error]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[Опр.(алгоритм обратного распостранения ошибки)]
+			(* <- lang_ru;; *);
+			[Def.(Algorithm with the back propagation error)]
+			(* <- lang_en;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/definition_algorithm_with_the_back_propagation_error.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- statement;;
+		=> nrel_main_idtf:
+			[Утв.(алгоритм обратного распостранения ошибки)]
+			(* <- lang_ru;; *);
+			[Stat.(algorithm with the back propagation error)]
+			(* <- lang_en;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/statement_algorithm_with_the_back_propagation_error.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+<- rrel_key_sc_element: ... (*
+	<- illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://content_html/algorithm_with_the_back_propagation_error.png";;
+	*);;
+*);;

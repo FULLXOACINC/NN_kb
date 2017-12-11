@@ -1,0 +1,36 @@
+step_size
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[размер шага](* <-lang_ru;; *);
+		[step size](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(размер шага)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/step_size.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(размер шага)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_step_size.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+
+	<= nrel_inclusion: concept_backpropagation;;
+
+
+
+

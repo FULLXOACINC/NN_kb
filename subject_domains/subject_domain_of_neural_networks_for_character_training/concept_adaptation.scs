@@ -1,0 +1,22 @@
+concept_adaptation
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[адаптация]
+	(* 
+        <- lang_ru;;
+	*);;
+
+concept_adaptation
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<-sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/concept_adaptation.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

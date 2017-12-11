@@ -1,0 +1,32 @@
+nrel_function_error
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[функция ошибки Е]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[функционал качества]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[ошибка]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_function_error
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_function_error.html"  
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

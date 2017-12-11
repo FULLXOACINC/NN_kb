@@ -1,0 +1,43 @@
+local_minimums
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[локальные минимумы](* <-lang_ru;; *);
+		[local minimums](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(локальные минимумы)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/local_minimums.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(локальные минимумы)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_local_minimums.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+
+	<- rrel_key_sc_element: ... (*
+		<- sc_illustration;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: "file://pics/local_minimums.png";;
+		*);;
+	*);
+
+	<= nrel_inclusion: concept_backpropagation;;
+
+
+
+

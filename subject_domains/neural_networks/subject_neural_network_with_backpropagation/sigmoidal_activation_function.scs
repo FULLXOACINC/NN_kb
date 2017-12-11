@@ -1,0 +1,27 @@
+sigmoidal_activation_function
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сигмоидальная функция активации](* <- lang_ru;;*);
+	[sigmoidal activation function](*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	=> nrel_main_idtf: [Опр.(сигмоидальная функция активации)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:"file://htmls/sigmoidal_activation_functions.html" (* <-lang_ru;; *);;
+		*);;
+	
+	*);
+
+
+<- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://pics/sigmoidal_activation_function.png";;
+	*);;
+*);;
+
+

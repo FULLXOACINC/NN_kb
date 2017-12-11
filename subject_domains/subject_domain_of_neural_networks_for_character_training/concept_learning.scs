@@ -1,0 +1,27 @@
+concept_learning
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[обучение]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[процесс обучения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+concept_learning
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/concept_learning.html"
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

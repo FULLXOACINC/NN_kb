@@ -1,0 +1,28 @@
+concept_reccurent_neural_network <- sc_node_struct;;
+
+concept_reccurent_neural_network => nrel_main_idtf:
+	[Реккурентная нейронная сеть]
+	(* <- lang_ru;; *);
+	[Reccurent neural network]
+    	(* <- lang_en;; *);;
+
+concept_subj_domain_neural_networks_with_reverse_propagation => nrel_private_subject_domain: concept_reccurent_neural_network;;
+
+concept_reccurent_neural_network <- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	=> nrel_main_idtf: [Опр.(Реккурентная нейронная сеть)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/definition_for_reccurent_neural_network.html"
+					(* <- lang_ru;; *);;
+			*);;
+	*);;
+
+
+
+
+

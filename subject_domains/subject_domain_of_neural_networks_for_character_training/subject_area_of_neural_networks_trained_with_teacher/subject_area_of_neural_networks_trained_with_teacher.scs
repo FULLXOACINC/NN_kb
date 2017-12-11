@@ -1,0 +1,31 @@
+subject_area_of_neural_networks_trained_with_teacher
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[Предметная область нейронных сетей обученных с учителем]
+	(* 
+        <- lang_ru;;
+	*);;
+
+subject_area_of_neural_networks_trained_with_teacher
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/subject_area_of_neural_networks_trained_with_teacher.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;
+
+subject_area_of_neural_networks_trained_with_teacher
+    -> rrel_not_maximum_studied_object_class:
+        concept_noise;
+        nrel_size_training_sample;
+        nrel_training_sample; 
+    -> nrel_primary_elements_class_private_subject_domain:
+        single_layer_neural_networks_trained_with_teacher;
+	multilayer_neural_networks_trained_with_teacher;;

@@ -1,0 +1,14 @@
+subject_neural_network_by_type_of_input_information
+<- subject_domain;
+=> nrel_main_idtf:
+	[Предметная область нейронных сетей по типу входной информации]
+	(* <- lang_ru;; *);
+	[Subject neural network by type of input_information]
+	(* <- lang_en;; *);
+
+=> nrel_private_subject_domain:
+		subject_analog_neural_network;
+		subject_binary_neural_network;;
+
+
+

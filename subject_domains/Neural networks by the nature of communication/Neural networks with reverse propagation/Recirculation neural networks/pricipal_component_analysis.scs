@@ -1,0 +1,21 @@
+principal_component_analysis <- sc_node_not_relation;;
+
+principal_component_analysis => nrel_main_idtf:
+	[Анализ главных компонент]
+	(* <- lang_ru;; *);
+	[Principal component analysis]
+    	(* <- lang_en;; *);;
+
+principal_component_analysis <- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	=> nrel_main_idtf: [Опр.(Анализ главных компонент)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+			...
+			(*
+				-> rrel_example:
+					"file://content_html/principal_component_analysis.html"
+					(* <- lang_ru;; *);;
+			*);;
+	*);;

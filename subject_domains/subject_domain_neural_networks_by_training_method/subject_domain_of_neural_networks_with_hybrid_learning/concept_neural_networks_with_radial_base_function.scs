@@ -1,0 +1,50 @@
+concept_neural_networks_with_radial_base_function
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Нейронные сети с радиально-базисной
+функцией]
+	(* <- lang_ru;; *);
+	[Neural networks with radial-base function]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[Опр.(нейронные сети с радиально-базисной
+функцией)]
+			(* <- lang_ru;; *);
+			[Def.(neural networks with radial-base function)]
+			(* <- lang_en;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/definition_neural_networks_with_radial_base_function.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- statement;;
+		=> nrel_main_idtf:
+			[Утв.(нейронные сети с радиально-базисной
+функцией)]
+			(* <- lang_ru;; *);
+			[Stat.(neural networks with radial-base function)]
+			(* <- lang_en;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/statement_neural_networks_with_radial_base_function.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+<- rrel_key_sc_element: ... (*
+	<- illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://content_html/concept_neural_networks_with_radial_base_function.png";;
+	*);;
+*);;

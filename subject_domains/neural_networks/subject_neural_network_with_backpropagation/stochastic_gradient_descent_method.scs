@@ -1,0 +1,36 @@
+stochastic_gradient_descent_method
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[стохастический градиентный спуск](* <-lang_ru;; *);
+		[stochastic gradient descent](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(стохастический градиентный спуск)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/stochastic_gradient_descent_method.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(стохастический градиентный спуск)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_stochastic_gradient_descent.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+
+	<= nrel_inclusion: concept_gradient_descent_method;;
+
+
+
+

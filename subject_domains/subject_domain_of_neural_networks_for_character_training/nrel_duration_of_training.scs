@@ -1,0 +1,22 @@
+nrel_duration_of_training
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[длительность обучения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_duration_of_training
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_duration_of_training.html"  
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

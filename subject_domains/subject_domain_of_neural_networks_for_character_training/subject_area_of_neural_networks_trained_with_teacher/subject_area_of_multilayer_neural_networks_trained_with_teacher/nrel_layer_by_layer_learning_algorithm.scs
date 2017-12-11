@@ -1,0 +1,32 @@
+nrel_layer_by_layer_learning_algorithm
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[Алгоритм послойного обучения]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[Метод послойного обучения]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[послойное обучение]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_layer_by_layer_learning_algorithm
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_layer_by_layer_learning_algorithm.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

@@ -1,0 +1,30 @@
+concept_context_unit <- sc_node_not_relation;;
+
+concept_context_unit => nrel_main_idtf:
+	[Контекстный нейрон]
+	(* <- lang_ru;; *);
+	[Context unit]
+    	(* <- lang_en;; *);;
+
+concept_context_unit <- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	=> nrel_main_idtf: [Опр.(Контекстный нейрон)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/definition_for_context_unit.html"
+					(* <- lang_ru;; *);;
+			*);;
+	*);;
+
+concept_context_unit <- rrel_key_sc_element: 
+... 
+(*
+	<- illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://content_html/сontext_units.jpg";;
+	*);;
+*);;

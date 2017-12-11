@@ -1,0 +1,27 @@
+concept_epoch
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[эпоха]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[эпоха обучения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+concept_epoch
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/concept_epoch.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

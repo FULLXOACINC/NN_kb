@@ -1,0 +1,33 @@
+concept_rosenblatts_multilayer_perceptron
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[многослойный перцептрон Розенблатта](* <-lang_ru;; *);
+		[Rosenblatt's multilayer perceptron](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(многослойный перцептрон Розенблатта)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/concept_rosenblatts_multilayer_perceptron.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(многослойный перцептрон Розенблатта)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_rosenblatts_multilayer_perceptron.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);;
+
+
+

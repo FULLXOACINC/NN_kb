@@ -1,0 +1,29 @@
+subject_area_of_neural_networks_trained_without_teacher
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[Предметная область нейронных сетей обученных без учителя]
+	(* 
+        <- lang_ru;;
+	*);;
+
+subject_area_of_neural_networks_trained_without_teacher
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/subject_area_of_neural_networks_trained_without_teacher.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;
+
+subject_area_of_neural_networks_trained_without_teacher
+    -> rrel_not_maximum_studied_object_class:
+        nrel_Hebb_rule_without_teacher;
+        nrel_competitive_learning_with_one_winner;
+        nrel_competitive_learning_with_many_winner;
+        nrel_controlled_competitive_learning;;

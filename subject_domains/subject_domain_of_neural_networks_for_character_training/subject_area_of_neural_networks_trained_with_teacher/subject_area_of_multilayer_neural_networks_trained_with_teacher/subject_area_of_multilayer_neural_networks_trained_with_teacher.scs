@@ -1,0 +1,13 @@
+multilayer_neural_networks_trained_with_teacher
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[Многослойные нейронные сети обученные с учителем]
+	(* 
+        <- lang_ru;;
+	*);;
+
+multilayer_neural_networks_trained_with_teacher
+    -> rrel_not_maximum_studied_object_class:
+        nrel_algorithm_of_back_propagation_of_error;
+        nrel_layer_by_layer_learning_algorithm;
+        nrel_algorithm_multiple_propagation_error;;

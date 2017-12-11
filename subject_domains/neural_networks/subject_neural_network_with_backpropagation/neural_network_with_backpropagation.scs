@@ -1,0 +1,29 @@
+neural_network_with_backpropagation
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[нейронная сеть с обратным распространением ошибки](* <-lang_ru;; *);
+		[neural network with backpropagation](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/neural_network_with_backpropagation.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<= nrel_inclusion:concept_neural_network;
+
+	<- rrel_key_sc_element: ... (*
+		<- illustration;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: "file://pics/neural_network_with_backpropagation.jpg";;
+		*);;
+*);;
+
+
+

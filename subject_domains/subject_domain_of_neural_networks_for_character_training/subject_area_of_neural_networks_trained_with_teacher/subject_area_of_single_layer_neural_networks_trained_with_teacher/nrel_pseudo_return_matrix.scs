@@ -1,0 +1,22 @@
+nrel_pseudo_return_matrix
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[псевдообратная матрица]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_pseudo_return_matrix
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_pseudo_return_matrix.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

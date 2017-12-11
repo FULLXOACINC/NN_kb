@@ -1,0 +1,27 @@
+concept_initialization
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[инициализация]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[стадия инициализации]
+	(* 
+        <- lang_ru;;
+	*);;
+
+concept_initialization
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<-sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/concept_initialization.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

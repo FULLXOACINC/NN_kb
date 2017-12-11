@@ -1,0 +1,33 @@
+concept_real_number
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[действительное число](* <-lang_ru;; *);
+		[real number](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(действительное число)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			[Действительное число - это любое положительное число, отрицательное число или нуль.](*<- lang_ru;;*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(действительное число)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			[Аналоговые нейронные сети используют входную информацию в виде действительных чисел.](*<- lang_ru;;*);;
+			*);;
+*);
+
+	<= nrel_inclusion:concept_analog_neural_network;;
+
+
+

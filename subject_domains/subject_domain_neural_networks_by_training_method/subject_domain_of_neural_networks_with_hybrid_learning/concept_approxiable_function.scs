@@ -1,0 +1,24 @@
+concept_approxiable_function
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Аппроксимируемая функция]
+	(* <- lang_ru;; *);
+	[Aproxiable_function]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- definition;;
+		=> nrel_main_idtf:
+			[Опр.(аппроксимируемая функция)]
+			(* <- lang_ru;; *);
+			[Def.(aproxiable function)]
+			(* <- lang_en;; *);;
+		<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				"file://content_html/concept_approxiable_function.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);;

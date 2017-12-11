@@ -1,0 +1,37 @@
+concept_standard
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[эталон]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[эталонное значение]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[эталонный образ]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[целевой образ]
+	(* 
+        <- lang_ru;;
+	*);;
+
+concept_standard
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/concept_standard.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

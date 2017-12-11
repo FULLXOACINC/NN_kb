@@ -1,0 +1,32 @@
+concept_noise
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[зашумлённость]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[зашумленное значение]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[зашумленный образ]
+	(* 
+        <- lang_ru;;
+	*);;
+
+concept_noise
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/concept_noise.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

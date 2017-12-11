@@ -1,0 +1,22 @@
+concept_plasticity
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[пластичность]
+	(* 
+        <- lang_ru;;
+	*);;
+
+concept_plasticity
+    <- rrel_key_sc_element:
+    ...
+    (* 
+    <-sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: "file://htmls/concept_plasticity.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

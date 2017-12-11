@@ -1,0 +1,41 @@
+transmission_function
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[передаточная функция](* <- lang_ru;;*);
+	[transmission function](*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	=> nrel_main_idtf: [Опр.(передаточная функция)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:"file://htmls/transmission_function.html" (* <-lang_ru;; *);;
+		*);;
+	
+	*);
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_statement;;
+	=> nrel_main_idtf: [Утв.(передаточная функция)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:"file://htmls/stat_transmission_function.html" (* <-lang_ru;; *);;
+		*);;
+	
+	*);
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_statement;;
+	=> nrel_main_idtf: [Утв.(типы передаточной функции)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:"file://htmls/statement_transmission_function.html" (* <-lang_ru;; *);;
+		*);;
+	
+	*);;

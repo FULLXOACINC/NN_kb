@@ -1,0 +1,25 @@
+subject_binary_neural_network
+<- subject_domain;
+=> nrel_main_idtf:
+	[Предметная область двоичных нейронных сетей]
+	(* <- lang_ru;; *);
+	[Subject binary neural network]
+	(* <- lang_en;; *);
+
+-> rrel_not_maximum_studied_object_class:
+	  concept_binary_neural_network;
+
+-> rrel_not_maximum_studied_object_class:
+          concept_binary_input_information;
+
+<- rrel_key_sc_element: ...
+	(*
+	<- sc_definition;;
+	=> nrel_main_idtf: [Опр.(Предметная область двоичных нейронных сетей)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example:
+			"file://htmls/subject_binary_neural_network.html"
+				(* <- lang_ru;;	*);;
+		*);;
+*);;

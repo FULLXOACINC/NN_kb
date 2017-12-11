@@ -1,0 +1,25 @@
+concept_neural_network_with_direct_links
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[нейронная сеть с прямыми связями](* <-lang_ru;; *);
+		[neural network with direct links](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf:
+			[Опр.(нейронная сеть с прямыми связями)]
+			(* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/concept_neural_network_with_direct_links.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<= nrel_inclusion:concept_neural_network;;
+
+
+

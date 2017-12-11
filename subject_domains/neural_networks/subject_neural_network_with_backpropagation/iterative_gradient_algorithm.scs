@@ -1,0 +1,19 @@
+iterative_gradient_algorithm
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[итеративный градиентный алгоритм](* <-lang_ru;; *);
+		[iterative gradient algorithm](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(итеративный градиентный алгоритм)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/iterative_gradient_algorithm.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+	<= nrel_inclusion: concept_backpropagation;;

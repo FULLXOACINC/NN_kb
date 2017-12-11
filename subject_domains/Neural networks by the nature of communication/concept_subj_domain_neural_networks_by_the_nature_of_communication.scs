@@ -1,0 +1,21 @@
+concept_subj_domain_neural_networks_by_the_nature_of_communication
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область нейронных сетей по характеру связи]
+	(* <- lang_ru;; *);
+	[Subject domain of neural networks by the nature of communication]
+        (* <- lang_en;; *);;
+
+concept_subj_domain_neural_networks_by_the_nature_of_communication <- rrel_key_sc_element: 
+	...
+	(*
+		<- explanation;; 
+		<= nrel_sc_text_translation: 
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/explanation_for_nature_of_communication.html"
+					(* <- lang_ru;; *);;
+			*);;
+*);;

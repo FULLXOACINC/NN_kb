@@ -1,0 +1,25 @@
+nrel_distribution_layer
+
+	<- sc_node_norole_relation;
+	<- oriented_relation;
+	<- antireflexive_relation;
+	<- antisymmetric_relation;
+	<- antitransitive_relation;
+
+	=> nrel_main_idtf: 
+		[распределительный слой*](*<-lang_ru;;*);
+		[distribution layer*](*<-lang_en;;*);
+
+	<- rrel_key_sc_element: ...
+		(*	
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Опр.(распределительный слой*)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+			"file://htmls/nrel_distribution_layer.html"
+				(* <- lang_ru;;	*);;
+			*);;
+
+	*);;
+

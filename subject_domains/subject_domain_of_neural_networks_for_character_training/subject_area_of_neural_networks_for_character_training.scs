@@ -1,0 +1,42 @@
+subject_area_of_neural_networks_for_character_training
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[Предметная область нейронных сетей по характеру обучения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+subject_area_of_neural_networks_for_character_training
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/subject_area_of_neural_networks_for_character_training.html"
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;
+
+subject_area_of_neural_networks_for_character_training
+-> rrel_not_maximum_studied_object_class:
+    concept_plasticity;
+    concept_adaptation;
+    concept_self_organization;
+    concept_initialization;
+    concept_learning;
+    concept_epoch;
+    concept_standard;
+    nrel_normalization;
+    nrel_convex_combination;    
+    nrel_generalization;
+    nrel_retraning;    
+    nrel_duration_of_training;
+    nrel_coefficient_speed_of_learning;
+    nrel_function_error;
+-> nrel_primary_elements_class_private_subject_domain:
+    subject_area_of_neural_networks_trained_with_teacher;
+    subject_area_of_neural_networks_trained_without_teacher;;

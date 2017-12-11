@@ -1,0 +1,37 @@
+concept_perceptron
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[перцептрон](* <-lang_ru;; *);
+		[perceptron](* <- lang_en;; *);
+
+	=> nrel_idtf:
+		[персептрон](* <-lang_ru;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(перцептрон)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/concept_perceptron.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ... (*
+		<- illustration;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: "file://pics/concept_perceptron.png";;
+		*);;
+*);
+
+	=> nrel_inclusion:
+		concept_rosenblatts_multilayer_perceptron;
+		concept_multilayer_perceptron;
+
+	<= nrel_inclusion:concept_neural_network;;
+
+
+

@@ -1,0 +1,32 @@
+network_paralysis
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[паралич сети](* <-lang_ru;; *);
+		[network paralysis](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(паралич сети)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/network_paralysis.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_statement;;
+		=> nrel_main_idtf: [Утв.(паралич сети)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/statement_network_paralysis.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);
+
+	<= nrel_inclusion: concept_backpropagation;;

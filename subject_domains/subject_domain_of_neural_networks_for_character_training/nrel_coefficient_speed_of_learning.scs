@@ -1,0 +1,32 @@
+nrel_coefficient_speed_of_learning
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[коэффициент скорости обучения]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[размер шага]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[скорость обучения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_coefficient_speed_of_learning
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_coefficient_speed_of_learning.html"  
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

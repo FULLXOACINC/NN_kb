@@ -1,0 +1,27 @@
+nrel_competitive_learning_with_one_winner
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[Конкурентное обучение с одним победителем]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[Метод конкурентного обучения с одним победителем]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_competitive_learning_with_one_winner
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_competitive_learning_with_one_winner.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

@@ -1,0 +1,40 @@
+concept_gradient_descent_method
+
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[метод градиентного спуска](* <-lang_ru;; *);
+		[gradient descent method](* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Опр.(метод градиентного спуска)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://htmls/concept_gradient_descent_method.html"
+				(* <- lang_ru;;	*);;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ...
+		(*
+		<- sc_illustration;;
+		=> nrel_main_idtf: [Иллюcтрация алгоритма к понятию "метод градиентного спуска")] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example:
+			"file://pics/gradient_descent_method.png";;
+			*);;
+*);
+
+	<- rrel_key_sc_element: ... (*
+		<- sc_illustration;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: "file://pics/gradient_descent.png";;
+		*);;
+*);;
+
+
+
+

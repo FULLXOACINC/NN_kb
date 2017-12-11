@@ -1,0 +1,21 @@
+concept_strange_attractor <- sc_node_not_relation;;
+
+concept_strange_attractor => nrel_main_idtf:
+	[Странный аттрактор]
+	(* <- lang_ru;; *);
+	[Strange attractor]
+    	(* <- lang_en;; *);;
+
+concept_strange_attractor <- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	=> nrel_main_idtf: [Опр.(Cтранный аттрактор)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/definition_for_strange_attractor.html"
+					(* <- lang_ru;; *);;
+			*);;
+	*);;

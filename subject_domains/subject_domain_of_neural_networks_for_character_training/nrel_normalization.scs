@@ -1,0 +1,22 @@
+nrel_normalization
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[нормализация]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_normalization
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_normalization.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

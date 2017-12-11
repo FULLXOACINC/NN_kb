@@ -1,0 +1,38 @@
+network_performance_assessment_function
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функция оценки работы сети](* <- lang_ru;;*);
+	[network performance assessment function](*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	=> nrel_main_idtf: [Опр.(функция оценки работы сети)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:"file://htmls/network_performance_assessment_function.html" (* <-lang_ru;; *);;
+		*);;
+	
+	*);
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_statement;;
+	=> nrel_main_idtf: [Утв.(функция оценки работы сети)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:"file://htmls/stat_network_performance_assessment_function.html" (* <-lang_ru;; *);;
+		*);;
+	
+	*);
+
+<- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://pics/network_performance_assessment_function.png";;
+	*);;
+*);;
+
+

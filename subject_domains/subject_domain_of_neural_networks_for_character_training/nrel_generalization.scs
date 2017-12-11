@@ -1,0 +1,27 @@
+nrel_generalization
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[обобщение]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[проблема обобщения]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_generalization
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_generalization.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;

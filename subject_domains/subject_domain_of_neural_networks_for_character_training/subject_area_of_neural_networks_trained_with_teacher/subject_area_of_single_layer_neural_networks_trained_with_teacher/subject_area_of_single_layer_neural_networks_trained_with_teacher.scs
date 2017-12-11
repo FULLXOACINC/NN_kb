@@ -1,0 +1,15 @@
+single_layer_neural_networks_trained_with_teacher
+    <- sc_node_not_relation;
+    => nrel_main_idtf:
+	[Однослойные нейронные сети обученные с учителем]
+	(* 
+        <- lang_ru;;
+	*);;
+
+single_layer_neural_networks_trained_with_teacher
+    -> rrel_not_maximum_studied_object_class:
+        nrel_Hebb_rule;
+        nrel_Rosenblatt_rule;
+        nrel_delta_rule;
+        nrel_adaptive_learning_step;
+        nrel_pseudo_return_matrix;;

@@ -1,0 +1,32 @@
+nrel_algorithm_multiple_propagation_error
+    <- sc_node_norole_relation;
+    => nrel_main_idtf:
+	[Алгоритм многократного распространения ошибки]
+	(* 
+        <- lang_ru;;
+	*);    
+    => nrel_idtf:
+	[Метод многократного распространения ошибки]
+	(* 
+        <- lang_ru;;
+	*);
+    => nrel_idtf:
+	[многократное распространение ошибки]
+	(* 
+        <- lang_ru;;
+	*);;
+
+nrel_algorithm_multiple_propagation_error
+    <- rrel_key_sc_element:
+    ...
+    (* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+        ...
+		(* 
+		-> rrel_example: "file://htmls/nrel_algorithm_multiple_propagation_error.html" 
+            (* 
+                <-lang_ru;;
+            *);;
+		*);;
+	*);;
