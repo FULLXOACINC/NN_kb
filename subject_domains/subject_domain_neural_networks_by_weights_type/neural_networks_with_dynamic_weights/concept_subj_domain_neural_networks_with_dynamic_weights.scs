@@ -1,0 +1,23 @@
+concept_subj_domain_neural_networks_with_dynamic_weights <- sc_node_struct;;
+
+concept_subj_domain_neural_networks_with_dynamic_weights => nrel_main_idtf:
+	[Предметная область нейронных сетей с динамическими связями]
+	(* <- lang_ru;; *);
+	[Subject domain of neural networks with dynamic weights]
+    	(* <- lang_en;; *);;
+
+concept_subj_domain_neural_networks_by_weights_type => nrel_private_subject_domain: concept_subj_domain_neural_networks_with_dynamic_weights;;
+
+concept_subj_domain_neural_networks_with_dynamic_weights <- rrel_key_sc_element: 
+	...
+	(*
+		<- explanation;; 
+		<= nrel_sc_text_translation: 
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/concept_subj_domain_neural_networks_with_dynamic_weights.html"
+					(* <- lang_ru;; *);;
+			*);;
+*);;
+

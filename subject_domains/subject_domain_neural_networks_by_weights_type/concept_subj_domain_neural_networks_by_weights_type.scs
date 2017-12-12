@@ -1,0 +1,21 @@
+concept_subj_domain_neural_networks_by_weights_type
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область нейронных сетей по характеру настройки связей]
+	(* <- lang_ru;; *);
+	[Subject domain of neural networks by type of weights]
+        (* <- lang_en;; *);;
+
+concept_subj_domain_neural_networks_by_weights_type <- rrel_key_sc_element: 
+	...
+	(*
+		<- explanation;; 
+		<= nrel_sc_text_translation: 
+			...
+			(*
+				-> rrel_example: 
+					"file://content_html/concept_subj_domain_neural_networks_by_weights_type.html"
+					(* <- lang_ru;; *);;
+			*);;
+*);;
